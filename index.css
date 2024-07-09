@@ -20,6 +20,7 @@
 
   --text-color: silver;
   --body-font: "Gabriela";
+  --rodape-font: "Gabriela";
   --body-bg: no-repeat
     linear-gradient(var(--bg-degrees), var(--brick) 0%, var(--cherry) 100%)
     center/cover;
@@ -60,7 +61,7 @@ body {
 body * {
   color: var(--text-color);
   font-family: var(--body-font);
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 100;
 }
 
@@ -160,7 +161,10 @@ Links
   background: var(--surface-color-hover);
 }
 
-#rodape p {
-  
+footer * {
+  color: var(--text-color);
+  font-family: var(--rodape-font);
+  font-size: small;
+  font-weight: 100;
 }
 
